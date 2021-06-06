@@ -1,0 +1,109 @@
+.btn{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 24px;
+    user-select: none;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 233, 233);
+    border: solid rgb(12, 12, 150);
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(85, 190, 180);
+}
+
+.btn:active{
+    background-color: rgb(55, 119, 113);
+}
+
+.btns{
+    display: flex;
+    align-items: flex-start;
+}
+
+.title{
+    flex-grow: 4;
+    text-align: left;
+    padding: 18px;
+    margin: auto;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{
+    max-height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(12, 12, 150);
+    color: white;
+    
+}
+
+.logo{
+    max-height: 100%;
+    padding: 12px 12px;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.chart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* display: flex; */
+    flex-flow: column wrap;
+    width: 45%;
+}
+
+.tableHeader{
+    display: flex;
+    color: rgb(12, 12, 150);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.weight{
+    flex: 2 2 25%;
+}
+
+.grade{
+    flex: 2 2 25%;
+}
+
+.course{
+    flex: 5 5 40%;
+}
+
+.smallBtn{
+    flex: 1 1 5%;
+}
+
+input{
+    height: 24px;
+    width: 90%;
+    border-radius: 6px;
+}
+
+
+.row{
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.result{
+    width: 100px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: auto;
+    padding: 12px 12px;
+    text-align: center;
+    background-color: rgb(12, 12, 150);
+    color: white;
+    border-radius: 50%;
+}
